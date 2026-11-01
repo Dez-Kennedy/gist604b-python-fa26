@@ -128,7 +128,6 @@ def filter_environmental_data(df, min_temp=15, max_temp=30, quality="good"):
           - Temperature: 20.0°C to 30.0°C
           - Data quality: good
     """
-    
     print("=" * 50)
     print("FILTERING ENVIRONMENTAL DATA")
     print("=" * 50)
@@ -236,7 +235,6 @@ def calculate_station_statistics(df):
           - Stations with data: 5
           - Average readings per station: 200.0
     """
-    
     # Print header
     print("=" * 50)
     print("CALCULATING STATION STATISTICS")
@@ -323,7 +321,6 @@ def join_station_data(stations_df, readings_df):
         Readings table: 1000 readings
         Joined table: 1000 rows with station details added!
     """
-    
     print("=" * 50)
     print("JOINING STATION DATA")
     print("=" * 50)
